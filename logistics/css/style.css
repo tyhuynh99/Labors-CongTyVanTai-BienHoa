@@ -5,7 +5,12 @@ body {
   line-height: 1.7;
   color: #4d4d4d;
   font-weight: 300;
-  font-size: 1rem; }
+  font-size: 1rem; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 ::-moz-selection {
   background: #000;
@@ -543,6 +548,7 @@ h1, h2, h3, h4, h5,
 
 /* Blocks */
 .site-blocks-cover {
+  width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -564,8 +570,8 @@ h1, h2, h3, h4, h5,
     bottom: -250px;
     width: 100%; }
   .site-blocks-cover, .site-blocks-cover .row {
-    min-height: 600px;
-    height: calc(100vh); }
+    min-height:75%;
+    height: calc(75vh); }
   .site-blocks-cover.inner-page-cover, .site-blocks-cover.inner-page-cover .row {
     min-height: 600px;
     height: calc(30vh); }

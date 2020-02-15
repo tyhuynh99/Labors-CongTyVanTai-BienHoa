@@ -1,0 +1,30 @@
+.text-color-default{
+  color: #0E357F;
+}
+.background-color-default{
+  background-color: #0E357F;
+}
+.border-color-default{
+	border-bottom: 5px solid #0E357F;
+	width: 15%;
+}
+
+.border-color-default-1{
+	border-color: #0E357F;
+}
+
+.zoom-default:hover img, h3 {
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05); }
+
+.zoom-default img, h3 {
+	-o-object-fit: cover;
+	object-fit: cover;
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1); 
+	-webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+}
