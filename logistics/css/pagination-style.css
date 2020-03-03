@@ -1,0 +1,58 @@
+a{
+	text-decoration: none;
+}
+
+.physicianList{
+	margin: 0; 
+	padding: 0; 
+}
+.physicianList ul{
+	margin: 0; 
+	padding: 0; 
+	list-style: none;
+	width: 100%;
+
+}
+.physicianList ul li{
+	width: 100%; 
+	background-color: red;
+}
+.physicianBox{
+	position: relative;
+	/*margin: 0;*/
+	padding: 5px;
+	float: left;
+}
+.physicianBox .physicianPic {
+	text-align: center;
+}
+.physicianBox .physicianPic img{
+	transition: all 0.3s ease 0s;
+	margin: 0 auto;
+	width: 100%;
+	/*margin-bottom: 5px;*/
+}
+
+/*Pagination CSS*/
+#page_navigation {
+	clear:both;
+}
+#page_navigation a{
+	text-align: center;
+	padding:3px 6px;
+	border-radius: 5px;
+	margin:2px;
+	color:black;
+	font-size: 15px;
+	text-decoration:none;
+}
+.active_page{
+	background:#0E357F;
+	color:white !important;
+}
+
+@media (width: 375px) {
+	#page_navigation a{
+		font-size: 14px;
+	}
+}
